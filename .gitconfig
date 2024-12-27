@@ -1,6 +1,6 @@
 [user]
-  name = [name]
-  email = [email] 
+  name = [NAME]
+  email = [EMAIL]
 [push]
   default = simple
 [filter "lfs"]
@@ -8,7 +8,9 @@
   smudge = git-lfs smudge %f
   required = true
 [alias]
-  lt = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset' --abbrev-commit --date=relative --name-status
+  lt = log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)%an%Creset' --abbrev-commit --date=relative
+  ltf = lt --follow --patch -- 
+  ltfn = lt --name-status --follow --patch -- 
 [color]
   ui = auto
 [color "branch"]
@@ -24,4 +26,3 @@
   added = yellow
   changed = green
   untracked = cyan
-
