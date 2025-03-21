@@ -26,3 +26,9 @@
   added = yellow
   changed = green
   untracked = cyan
+# Notes
+# Reverting without a commit -> git revert --no-commit COMMIT_SHA
+# Remove all changed / new files from working directory -> git restore .
+# Remove all changed / new files from staging -> (git reset) or git restore --staged
+# Switch to the last checked out branch -> git checkout -
+# Stash all changed / new files -> git stash save -u 'MESSAGE'
