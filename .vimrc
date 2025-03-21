@@ -6,20 +6,8 @@ set shiftwidth=2
 set expandtab
 set autoindent
 set smartindent
-set termguicolors
 " https://github.com/vim/vim/issues/2049 pattern uses more memory than 'maxmempattern'
 set mmp=2000
-" set guicursor=
-" set nohlsearch
-" set hidden
-" set noerrorbells
-" set nu
-" set nowrap
-" set noswapfile
-" set nobackup
-" set undodir=~/.vim/undodir
-" set undofile
-" set incsearch
 
 " start vim plug script https://github.com/junegunn/vim-plug
 call plug#begin('~/.vim/plugged')
@@ -28,11 +16,10 @@ call plug#begin('~/.vim/plugged')
 " Plug 'junegunn/fzf.vim'
 " install color scheme
 Plug 'ayu-theme/ayu-vim'
-Plug 'preservim/nerdtree'
+" Plug 'preservim/nerdtree'
 " end vim plug script
 call plug#end()
 
-" colorscheme koehler
 syntax enable
 let ayucolor = "dark"
 colorscheme ayu
@@ -70,3 +57,4 @@ vnoremap K :m '<-2<CR>gv=gv
 " Toggling paste mode to prevent autoindent / comments
 " https://dev.to/andy4thehuynh/create-a-shortcut-to-toggle-paste-mode-with-vim-5205#:~:text=Toggle%20on%20paste%20mode%3A%20hit,paste%20mode%3A%20%5C%20%2B%20P%20.
 nnoremap <leader>i :set paste!<CR>
+

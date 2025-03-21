@@ -1,20 +1,3 @@
-# Start antigen
-source $(brew --prefix)/share/antigen/antigen.zsh
-
-antigen use oh-my-zsh
-
-antigen bundle z
-antigen bundle jeffreytse/zsh-vi-mode
-antigen bundle zsh-users/zsh-syntax-highlighting
-
-antigen theme spaceship-prompt/spaceship-prompt
-
-antigen apply
-
-# Disable the cursor style feature for zsh-vi-mode plugin
-ZVM_CURSOR_STYLE_ENABLED=false
-# End antigen
-
 # Start NVM
 export NVM_DIR="$HOME/.nvm"
 [ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
