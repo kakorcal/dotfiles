@@ -5,10 +5,10 @@ export NVM_DIR="$HOME/.nvm"
 # End NVM
 
 # Start alias
-alias notes="cd ~/Documents/projects/notes && vim ~/Documents/projects/notes"
 alias tasks="cd ~/Documents/tasks && vim ~/Documents/tasks"
 alias tmp="cd ~/Documents/tmp && vim ~/Documents/tmp"
 alias scripts="cd ~/Documents/scripts && vim ~/Documents/scripts"
+alias projects="cd ~/Documents/projects && vim ~/Documents/projects"
 # Todo: Install properly with brew
 # alias fzf="/Users/kennethkorcal/.vim/plugged/fzf/bin/fzf"
 # End alias
