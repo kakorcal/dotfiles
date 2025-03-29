@@ -5,12 +5,9 @@ export NVM_DIR="$HOME/.nvm"
 # End NVM
 
 # Start alias
-alias tasks="cd ~/Documents/tasks && vim ~/Documents/tasks"
-alias tmp="cd ~/Documents/tmp && vim ~/Documents/tmp"
-alias scripts="cd ~/Documents/scripts && vim ~/Documents/scripts"
-alias projects="cd ~/Documents/projects && vim ~/Documents/projects"
-# Todo: Install properly with brew
-# alias fzf="/Users/kennethkorcal/.vim/plugged/fzf/bin/fzf"
+alias tmp="cd ~/Documents/tmp && nvim ~/Documents/tmp"
+alias scripts="cd ~/Documents/scripts && nvim ~/Documents/scripts"
+alias projects="cd ~/Documents/projects && nvim ~/Documents/projects"
 # End alias
 
 # Start Volta
